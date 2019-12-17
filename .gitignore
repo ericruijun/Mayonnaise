@@ -12,6 +12,8 @@
 *.dvi
 *.blg
 *.gz
+*.nav
+*.snm
 *.dropbox
 *.pdf
 .DS_Store
