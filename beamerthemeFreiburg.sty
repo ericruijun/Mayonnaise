@@ -25,8 +25,23 @@
 
 \setbeamercolor{frametitle}{parent=titlelike}
 
-\mode
-<all>
+%\setbeamertemplate{footline}[frame number]
+
+\setbeamertemplate{navigation symbols}
+{  \insertslidenavigationsymbol 
+	\insertframenavigationsymbol   
+	\insertsubsectionnavigationsymbol  
+	\insertsectionnavigationsymbol
+	\insertdocnavigationsymbol  
+	\insertbackfindforwardnavigationsymbol 
+	\hspace{1em}  
+	\usebeamerfont{footline} 
+	\insertframenumber} %/\inserttotalframenumber }
+\setcounter{page}{1} 
+\pagenumbering{arabic}
+
+%\mode
+%<all>
 
 
 
