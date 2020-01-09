@@ -1,5 +1,4 @@
-% This file was created with JabRef 2.10.
-% Encoding: UTF8
+% Encoding: UTF-8
 
 
 @Book{emulgierzentrifuge,
@@ -7,8 +6,40 @@
   Author                   = {Dr. techn. Ing. Walter Wittenberger},
   Publisher                = {Springer-Verlag Wien GmbH},
   Year                     = {1962},
+  Note                     = {\url{https://books.google.de/books?id=gbZ9BwAAQBAJ&pg=PA179&lpg=PA179&dq=emulgierzentrifuge&source=bl&ots=3-mli7oJiG&sig=ACfU3U2wATJJyrpIZ_geFFC8qHYGeiZzZA&hl=de&sa=X&ved=2ahUKEwiboeXNqfLmAhXHYVAKHejFDlEQ6AEwAnoECAcQAQ\#v=onepage&q=emulgierzentrifuge&f=false}},
 
   Owner                    = {markus},
   Timestamp                = {2020.01.07}
 }
 
+@Book{MolKueche,
+  title     = {Die Molekül-Küche},
+  publisher = {HIRZEL},
+  year      = {2013},
+  author    = {Thomas Vilgis},
+  isbn      = {978-3-7776-2330-6},
+}
+
+@Book{,
+  title     = {Rätsel der Kochkunst},
+  publisher = {Springer},
+  year      = {1996},
+  author    = {Herve This-Benckhard},
+  isbn      = {978-3-642-64724-6},
+}
+
+@PhdThesis{DocGrundlagen,
+  author = {Sandra Petersen�},
+  title  = {Bestimmung der Emulgiereffektivität von Emulgatoren},
+  school = {Martin-Luther-Universität Halle-Wittenberg},
+  year   = {1984},
+}
+
+@PhdThesis{Schokolade,
+  author = {Dana Maria Middendorf},
+  title  = {Rasterkraftmikroskopische Untersuchungen zur Adsorption von Emulgatoren},
+  school = {Technische Universität Carolo-Wilhelmina},
+  year   = {2015},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
