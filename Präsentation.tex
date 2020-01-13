@@ -381,18 +381,80 @@ loctolang={DE:ngerman,UK:english},
 \subsection{Tropfenaufbruch}
 
 \begin{frame}{Mechanismen zum Tropfenaufbruch}
-	
+	\begin{minipage}{0.6\linewidth}
+		Laplacedruck:
+		\begin{equation*}
+		p_L = \gamma \left(\frac{1}{R_1} + \frac{1}{R_2}\right)
+		\end{equation*}
+		Kugelförmige Tropfen:
+		\begin{equation*}
+		p_L = \gamma \left(\frac{4}{D}\right)
+		\end{equation*}
+		Weberzahl
+		\begin{equation*}
+		We = \frac{\sigma}{p_L}
+		\end{equation*}
+	\end{minipage}%
+	\begin{minipage}{0.4\linewidth}
+		\flushright
+		\includegraphics[width=0.8\linewidth]{Markus/Synklastisch}\\
+		\includegraphics[width=\linewidth]{Markus/Antiklastisch}
+	\end{minipage}
 \end{frame}
 
 \begin{frame}{Laminare Strömung}
-	
+	\begin{itemize}
+		\item Rotationsströmung
+		\item Scherströmung
+		\item Dehnströmung
+	\end{itemize}
+	\includegraphics[width=\linewidth]{Markus/Laminarflow}
 \end{frame}
 
+\begin{frame}{Laminare Strömung}
+	\begin{minipage}{0.7\linewidth}
+		\begin{equation*}
+		\begin{aligned}
+		We_{\,\tx{lam}} &= \frac{\tau}{p_L} = \frac{\tau D}{4 \gamma} \\
+		We_{\,\tx{lam, kr}} &= \frac{\tau D_{\tx{max}}}{4 \gamma}
+		\end{aligned}
+		\end{equation*}
+		\vspace{0.5cm}\\
+		Viskositätsverhältnis disperse Phase / \\
+		Emulsion
+		\vspace{0.5cm}
+		\begin{equation*}
+		0,1 < \frac{\eta_{\tx{d}}}{\eta_{\tx{e}}} < 4
+		\end{equation*}
+	\end{minipage}%
+	\begin{minipage}{0.3\linewidth}
+		\includegraphics[width=\linewidth]{Markus/liquid_drop_E}
+	\end{minipage}
+\end{frame}
+
+
 \begin{frame}{Turbulente Strömung}
-	
+	\begin{minipage}{0.4\linewidth}
+		\begin{itemize}
+			\item Wirbelströme
+			\item Trägheitskräfte, turbulente Scherkräfte, viskose Spannungen
+		\end{itemize}
+	\end{minipage}%
+	\begin{minipage}{0.6\linewidth}
+		\includegraphics[width=\linewidth]{Markus/turbulentflowdrops}
+	\end{minipage}
+	\begin{equation*}
+	t_{\tx{def}} = \frac{\eta_{\tx{d}}}{\rho_k u'^2 p_K}
+	\end{equation*}
+	isotrope Turbulenz:
+	\begin{equation*}
+	D_{\tx{max}} = \rho_c^{-\frac{1}{5}} \gamma^{\frac{3}{5}} P_V^{-\frac{2}{5}}
+	\end{equation*}
+	$ P_V $ = Leistungsdchte
 \end{frame}
 
 \begin{frame}{Kavitation}
+	\includegraphics[width=\linewidth]{Markus/Cavitationbubble}
 %	\begin{tikzpicture}
 %		\draw[color=red!75!black, rounded corners, ultra thick] (-6,0) rectangle (-2,3);
 %		\node[shape=rectangle,
@@ -415,6 +477,10 @@ loctolang={DE:ngerman,UK:english},
 			\end{itemize}
 		\end{itemize}
 	\end{block}
+	\begin{exampleblock}{}
+		In Milch: 10 - 30 $ \mu $m\\
+		Homogenisierte Milch: 1 - 2 $ \mu $ m
+	\end{exampleblock}
 \end{frame}
 
 \subsection{Emulgieraparate}
@@ -478,8 +544,11 @@ loctolang={DE:ngerman,UK:english},
 	\includegraphics[width=\linewidth]{Markus/uh6}
 \end{frame}
 
-\begin{frame}{Anwendung: Salatdressing}
-
+\begin{frame}{Anwendung: Salatdressing - Vinaigrette}
+	\flushright
+	\includegraphics[width=0.6\linewidth]{Markus/Vinaigrette}
+	\flushleft
+	\includegraphics[width=0.6\linewidth]{Markus/Vinaigrette_test}
 \end{frame}
 
 
