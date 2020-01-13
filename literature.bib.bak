@@ -1,4 +1,6 @@
 % Encoding: UTF-8
+% This file was created with JabRef 2.10.
+% Encoding: UTF8
 
 
 @Book{emulgierzentrifuge,
@@ -12,34 +14,37 @@
   Timestamp                = {2020.01.07}
 }
 
-@Book{MolKueche,
-  title     = {Die Molekül-Küche},
-  publisher = {HIRZEL},
-  year      = {2013},
-  author    = {Thomas Vilgis},
-  isbn      = {978-3-7776-2330-6},
-}
-
-@Book{RatselKochkunst,
-  title     = {Rätsel der Kochkunst},
-  publisher = {Springer},
-  year      = {1996},
-  author    = {Herve This-Benckhard},
-  isbn      = {978-3-642-64724-6},
+@PhdThesis{Schokolade,
+  Title                    = {Rasterkraftmikroskopische Untersuchungen zur Adsorption von Emulgatoren},
+  Author                   = {Dana Maria Middendorf},
+  School                   = {Technische Universität Carolo-Wilhelmina},
+  Year                     = {2015}
 }
 
 @PhdThesis{DocGrundlagen,
-  author = {Sandra Petersen�},
-  title  = {Bestimmung der Emulgiereffektivität von Emulgatoren},
-  school = {Martin-Luther-Universität Halle-Wittenberg},
-  year   = {1984},
+  Title                    = {Bestimmung der Emulgiereffektivität von Emulgatoren},
+  Author                   = {Sandra Petersen},
+  School                   = {Martin-Luther-Universität Halle-Wittenberg},
+  Year                     = {1984}
 }
 
-@PhdThesis{Schokolade,
-  author = {Dana Maria Middendorf},
-  title  = {Rasterkraftmikroskopische Untersuchungen zur Adsorption von Emulgatoren},
-  school = {Technische Universität Carolo-Wilhelmina},
-  year   = {2015},
+@Book{RatselKochkunst,
+  Title                    = {Rätsel der Kochkunst},
+  Author                   = {Herve This-Benckhard},
+  Publisher                = {Springer},
+  Year                     = {1996},
+
+  ISBN                     = {978-3-642-64724-6}
 }
 
-@Comment{jabref-meta: databaseType:bibtex;}
+@Book{MolKueche,
+  Title                    = {Die Molekül-Küche},
+  Author                   = {Thomas Vilgis},
+  Publisher                = {HIRZEL},
+  Year                     = {2013},
+
+  ISBN                     = {978-3-7776-2330-6}
+}
+
+@comment{jabref-meta: databaseType:bibtex;}
+
