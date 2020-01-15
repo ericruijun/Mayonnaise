@@ -384,15 +384,15 @@ loctolang={DE:ngerman,UK:english},
 	\begin{minipage}{0.6\linewidth}
 		Laplacedruck:
 		\begin{equation*}
-		p_L = \gamma \left(\frac{1}{R_1} + \frac{1}{R_2}\right)
+		p_L = \sigma \left(\frac{1}{R_1} + \frac{1}{R_2}\right)
 		\end{equation*}
 		Kugelförmige Tropfen:
 		\begin{equation*}
-		p_L = \gamma \left(\frac{4}{D}\right)
+		p_L = \sigma \left(\frac{4}{D}\right)
 		\end{equation*}
 		Weberzahl
 		\begin{equation*}
-		We = \frac{\sigma}{p_L}
+		We = \frac{\tau}{p_L}
 		\end{equation*}
 	\end{minipage}%
 	\begin{minipage}{0.4\linewidth}
@@ -415,8 +415,8 @@ loctolang={DE:ngerman,UK:english},
 	\begin{minipage}{0.7\linewidth}
 		\begin{equation*}
 		\begin{aligned}
-		We_{\,\tx{lam}} &= \frac{\tau}{p_L} = \frac{\tau D}{4 \gamma} \\
-		We_{\,\tx{lam, kr}} &= \frac{\tau D_{\tx{max}}}{4 \gamma}
+		We_{\,\tx{lam}} &= \frac{\tau}{p_L} = \frac{\tau D}{4 \sigma} \\
+		We_{\,\tx{lam, kr}} &= \frac{\tau D_{\tx{max}}}{4 \sigma}
 		\end{aligned}
 		\end{equation*}
 		\vspace{0.5cm}\\
@@ -448,9 +448,9 @@ loctolang={DE:ngerman,UK:english},
 	\end{equation*}
 	isotrope Turbulenz:
 	\begin{equation*}
-	D_{\tx{max}} = \rho_c^{-\frac{1}{5}} \gamma^{\frac{3}{5}} P_V^{-\frac{2}{5}}
+	D_{\tx{max}} = \rho_k^{-\frac{1}{5}} \sigma^{\frac{3}{5}} P_V^{-\frac{2}{5}}
 	\end{equation*}
-	$ P_V $ = Leistungsdchte
+	$ P_V $ = Leistungsdichte
 \end{frame}
 
 \begin{frame}{Kavitation}
@@ -510,20 +510,16 @@ loctolang={DE:ngerman,UK:english},
 	\end{minipage}
 \end{frame}
 
-<<<<<<< HEAD
+
 \begin{frame}{Rotor-Stator-Systeme}
 	\includegraphics[width=0.5\linewidth]{Markus/Schuettler}
 	\includegraphics[width=0.5\linewidth]{Markus/Emulgierzentrifuge}
 \end{frame}
-=======
-%\begin{frame}{Rotor-Stator-Systeme}
-%	\includegraphics*[width=0.5\linewidth]{Markus/Schuettler}
-%	\includegraphics*[width=0.5\linewidth]{Markus/Emulgierzentrifuge}
-%\end{frame}
->>>>>>> 2bfe4b005ed405104a14c15da81edffcf4b1fa65
 
 \begin{frame}{Strömungsmechanische Mittel}
-	\includegraphics[width=\linewidth]{Markus/Radialdiffusoren}
+	\centering
+	\includegraphics[width=0.9\linewidth]{Markus/Radialdiffusoren}\\
+	\includegraphics[width=0.85\linewidth]{Markus/Gegenstrahl}
 \end{frame}
 
 \begin{frame}{Ultraschall Homogenisator}
@@ -549,6 +545,12 @@ loctolang={DE:ngerman,UK:english},
 \begin{frame}{Ultraschall Homogenisator}
 	\centering
 	\includegraphics[width=\linewidth]{Markus/uh6}
+\end{frame}
+
+\begin{frame}{Mikrokonstruierte Systeme}
+	\centering
+	\includegraphics[width=0.6\linewidth]{Markus/Filter}\\
+	\includegraphics[width=0.6\linewidth]{Markus/membran}
 \end{frame}
 
 \begin{frame}{Anwendung: Salatdressing - Vinaigrette}
