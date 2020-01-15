@@ -2,11 +2,45 @@
 % Encoding: UTF8
 
 
+@Misc{Ultraschall,
+  Title                    = {Herstellung einer Öl-Wasser-Emulsion mit einem SONOPULS Ultraschall-Homogenisator},
+
+  Author                   = {BANDELIN},
+  HowPublished             = {\url{https://www.youtube.com/watch?v=2zarUW5tcTA}},
+  Note                     = {[08.01.20]},
+
+  Owner                    = {markus},
+  Timestamp                = {2020.01.15}
+}
+
+@Misc{Keramikmembran,
+  Title                    = {ErsatzKeramikmembran},
+
+  Author                   = {Garnelenhaus},
+  HowPublished             = {\url{https://www.garnelenhaus.de/gh-goods/ersatz-keramikmembran}},
+  Note                     = {[11.01.20]},
+
+  Owner                    = {markus},
+  Timestamp                = {2020.01.15}
+}
+
+@Misc{KeramikmembranEM,
+  Title                    = {Kostengünstige Keramikmembranen},
+
+  Author                   = {Frauenhofer IGN},
+  HowPublished             = {\url{https://www.igb.fraunhofer.de/de/presse-medien/presseinformationen/1998/kostenguenstige-keramikmembranen.html}},
+  Note                     = {[12.01.20]},
+
+  Owner                    = {markus},
+  Timestamp                = {2020.01.15}
+}
+
 @Book{emulgierzentrifuge,
   Title                    = {Chemische Betriebstechnik: Ein Hilfsbuch für Chemtechniker und die Fachkr\"afte des Chemiebetriebes},
   Author                   = {Dr. techn. Ing. Walter Wittenberger},
   Publisher                = {Springer-Verlag Wien GmbH},
   Year                     = {1962},
+  Note                     = {\url{https://books.google.de/books?id=gbZ9BwAAQBAJ&pg=PA179&lpg=PA179&dq=emulgierzentrifuge&source=bl&ots=3-mli7oJiG&sig=ACfU3U2wATJJyrpIZ_geFFC8qHYGeiZzZA&hl=de&sa=X&ved=2ahUKEwiboeXNqfLmAhXHYVAKHejFDlEQ6AEwAnoECAcQAQ\#v=onepage&q=emulgierzentrifuge&f=false}},
 
   Owner                    = {markus},
   Timestamp                = {2020.01.07}
@@ -42,6 +76,24 @@
   Year                     = {2013},
 
   ISBN                     = {978-3-7776-2330-6}
+}
+
+@Misc{Droppletsplitting,
+  Title                    = {Dropplet Splitting scheme},
+  HowPublished             = {\url{http://ne.phys.kyushu-u.ac.jp/seminar/MicroWorld3_E/3Part3_E/3P33_E/liquid_drop_E.jpg}},
+  Note                     = {[14.01.20]},
+
+  Owner                    = {markus},
+  Timestamp                = {2020.01.15}
+}
+
+@Misc{Turbulentdropletsplit,
+  Title                    = {Turbulen Dropplet splitting},
+  HowPublished             = {\url{https://ars.els-cdn.com/content/image/1-s2.0-S0021979707001646-gr001.jpg}},
+  Note                     = {[12.01.20]},
+
+  Owner                    = {markus},
+  Timestamp                = {2020.01.15}
 }
 
 @comment{jabref-meta: databaseType:bibtex;}
